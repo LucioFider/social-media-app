@@ -1,0 +1,75 @@
+.register {
+  height: 100vh;
+  background-color: rgb(240, 242, 245);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .card {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+    background-color: white;
+    border-radius: 18px;
+    min-height: 600px;
+    overflow: hidden;
+    .left {
+      flex: 1;
+      background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)),
+        url("https://img.freepik.com/free-vector/falling-stars-meteors-comets-starry-night-sky-background_1284-51585.jpg?w=740&t=st=1666614394~exp=1666614994~hmac=44b63cded4a58095466e81cfca460076e7600923068e707602b346b0cb88ad96")
+          center;
+      background-size: cover;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      color: white;
+
+      h1 {
+        font-size: 100px;
+        line-height: 100px;
+      }
+      p {
+      }
+      span {
+        font-size: 14px;
+      }
+      button {
+        width: 50%;
+        padding: 10px;
+        border: none;
+        background-color: white;
+        color: rebeccapurple;
+        cursor: pointer;
+      }
+    }
+    .right {
+      flex: 1;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      justify-content: center;
+      h1 {
+        color: #555;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        input {
+          border: none;
+          border-bottom: 1px solid lightgray;
+          padding: 20px 10px;
+        }
+        button {
+          width: 50%;
+          padding: 10px;
+          border: none;
+          background-color: #938eef;
+          color: white;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
